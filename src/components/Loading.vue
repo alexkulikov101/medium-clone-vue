@@ -1,9 +1,9 @@
 <template>
-  <h1>Home page</h1>
+  <div>Loading...</div>
 </template>
 
 <script>
 export default {
-  name: 'McvHome',
+  name: 'McvLoading',
 }
 </script>

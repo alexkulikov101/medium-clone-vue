@@ -44,7 +44,7 @@
 <script>
 import {mapState} from 'vuex'
 
-import McvValidationErrors from '@/components/ValidationErrors.vue'
+import McvValidationErrors from '@/components/ValidationErrors'
 import {actionTypes} from '@/store/modules/auth'
 
 export default {
@@ -74,7 +74,7 @@ export default {
           password: this.password,
         })
         .then(() => {
-          this.$router.push({name: 'home'})
+          this.$router.push({name: 'globalFeed'})
         })
     },
   },
