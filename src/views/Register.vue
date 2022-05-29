@@ -76,7 +76,6 @@ export default {
 
   methods: {
     onSubmit() {
-      console.log('submit')
       this.$store
         .dispatch(actionTypes.register, {
           email: this.email,

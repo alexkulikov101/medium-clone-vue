@@ -122,7 +122,6 @@ const actions = {
     })
   },
   [actionTypes.getCurrentUser](context) {
-    console.log('2')
     return new Promise((resolve) => {
       context.commit(mutationTypes.getCurrentUserStart)
 
