@@ -92,7 +92,7 @@ export default {
         body: this.body,
         tagList: this.tagList.split(' '),
       }
-      this.$emit('articleSubmit', {article: form})
+      this.$emit('articleSubmit', form)
     },
   },
 }
